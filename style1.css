@@ -1,0 +1,130 @@
+/*Шрифты*/
+@font-face {
+    font-family: 'MontserratBold';
+    src: url('fonts/montserrat/montserratbold.woff2') format('woff2'), url('fonts/montserrat/montserratbold.woff') format('woff'), url('fonts/montserrat/montserratbold.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'MerriweatherRegular';
+    src: url('fonts/merriweather/merriweatherregular.woff2') format('woff2'), url('fonts/merriweather/merriweatherregular.woff') format('woff'), url('fonts/merriweather/merriweatherregular.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'MerriweatherBold';
+    src: url('fonts/merriweather/merriweatherbold.woff2') format('woff2'), url('fonts/merriweather/merriweatherbold.woff') format('woff'), url('fonts/merriweather/merriweatherbold.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'RalewayRegular';
+    src: url('fonts/raleway/ralewayregular.woff2') format('woff2'), url('fonts/raleway/ralewayregular.woff') format('woff'), url('fonts/raleway/ralewayregular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+/*Стили*/
+body {
+    background-color: white;
+}
+.header{
+    height: 806px;
+    background-color: #eff0f2;
+    }
+.header_logo{
+    padding-top: 64px ;
+    padding-left: 150px;
+    float: left;
+}
+.header_menu{
+    padding-top: 80px ;
+    padding-right: 152px;
+    float: right;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.header_text{
+    font: normal normal normal 45px/58px 'MontserratBold';
+    font-stretch: expanded;
+    text-shadow: 4px 9px 8px #c1c2c3;
+    letter-spacing: 3px;
+    text-align: center;
+    padding-top: 188px;
+    color: #505050;
+}
+.first_line{
+    padding-left: 14px;
+}
+.first{
+    background-color: #b2f2ee;
+    padding: 0 10px 0 10px;
+    text-shadow: 4px 9px 8px #97cdca;
+    margin-left: -10px;
+}
+.second_line{
+    margin-left: -9px;
+}
+.second{
+    position: relative;
+    background-color: #b2f2ee;
+    padding: 0 9px 2px 14px;
+    text-shadow: 4px 9px 8px #97cdca;
+    margin-right: -8px;
+}
+.header_contact{
+    padding-top: 139px;
+    text-align: center;
+}
+.header_juice_glass {
+    margin-top: -33px;
+    margin-right: 239px;
+    float: right;
+}
+/*Блок About us*/
+.abous_us{
+    margin: 0 ;
+    height: 985px;
+    background-color: #f8fafa;
+}
+.about_us_title{
+    padding-top: 118px;
+    padding-left: 23px;
+    font: normal normal normal 38px 'MontserratBold';
+    font-stretch: expanded;
+    letter-spacing: 0.15625rem;
+    text-align: center;
+    color: #323333;
+}
+.about_us_main_subtitle{
+    padding-top: 6px;
+    font: normal normal normal 18px 'MerriweatherRegular';
+    text-transform: uppercase;
+    font-stretch: expanded;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #848585;
+}
+.about_us_first_subtitle{
+    font: normal normal normal 20px 'MerriweatherBold';
+    text-transform: uppercase;
+    font-stretch: extra-expanded;
+    letter-spacing: 1px;
+    color: #646565;
+}
+.about_us_first_article{
+    padding-top: 3px;
+    font: normal normal normal 16px/28px'RalewayRegular';
+    letter-spacing: 0;
+    word-spacing: 1px;
+    color: #7e7f7f;
+
+}
+.container{
+     width: 1440px;
+}
+.about_us_text{
+    padding-top: 145px;
+    height: 417px;
+    width: 663px;
+    float: right;
+}
